@@ -1,16 +1,17 @@
-.error {
-  position: absolute;
-  inset: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #545050;
-}
+.error { /* Растягивает блок ошибки на весь родительский контейнер. */
+  position: absolute; /* Размещает сообщение поверх содержимого контейнера. */
+  inset: 0; /* Прижимает блок ошибки ко всем краям родителя. */
+  display: flex; /* Включает гибкое выравнивание заголовка ошибки. */
+  justify-content: center; /* Центрирует заголовок ошибки по горизонтали. */
+  align-items: center; /* Центрирует заголовок ошибки по вертикали. */
+  background-color: #545050; /* Задаёт серый фон блока ошибки. */
+} /* Завершает оформление блока ошибки. */
 
-.error__title {
-  color: #fff;
-  font-family: Oswald, sans-serif;
-  font-size: 30px;
-  text-align: center;
-  text-transform: uppercase;
-}
+.error__title { /* Оформляет текст сообщения об ошибке. */
+  color: #fff; /* Делает текст сообщения белым. */
+  font-family: Oswald, sans-serif; /* Задаёт заголовочный шрифт и запасное семейство. */
+  font-size: 30px; /* Устанавливает размер текста ошибки. */
+  text-align: center; /* Выравнивает текст ошибки по центру. */
+  text-transform: uppercase; /* Переводит текст ошибки в верхний регистр. */
+} /* Завершает оформление заголовка ошибки. */
+
